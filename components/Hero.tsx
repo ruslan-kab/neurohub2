@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
         </div>
         
         <h1 className="text-3xl sm:text-5xl md:text-8xl font-extrabold tracking-tight mb-6 md:mb-8 leading-[1.2] md:leading-[1.1]">
-          Будущее интеллекта <br className="hidden sm:block" />
+          Ведущие ИИ инструменты <br className="hidden sm:block" />
           <span className="gradient-text">уже в ваших руках</span>
         </h1>
         
@@ -33,8 +33,6 @@ const Hero: React.FC = () => {
             Начать творить
             <ArrowRight className="group-hover:translate-x-1 transition-transform" />
           </a>
-          <button className="w-full sm:w-auto px-8 py-4 md:py-5 glass rounded-xl md:rounded-2xl font-bold text-base md:text-lg hover:bg-white/5 transition-colors border border-white/5">
-            Смотреть демо
           </button>
         </div>
 
