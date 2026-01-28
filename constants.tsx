@@ -37,12 +37,11 @@ export const NAV_LINKS: NavLink[] = [
 ];
 
 export const MODELS: AIModel[] = [
-  { id: '1', name: 'GPT-4o', category: 'text', description: 'Самая мощная языковая модель для любых задач.', icon: 'MessageSquare' },
-  { id: '2', name: 'Midjourney v6', category: 'image', description: 'Фотореалистичные изображения высокого качества.', icon: 'ImageIcon' },
-  { id: '3', name: 'Claude 3.5 Sonnet', category: 'code', description: 'Эталон в написании кода и логических задачах.', icon: 'Code' },
+  { id: '1', name: 'GPT/Gemini/Claude и др.', category: 'text', description: 'Самые мощные языковые модели для любых задач.', icon: 'MessageSquare' },
+  { id: '2', name: 'Midjourney/Nano Banana/FLUX и др.', category: 'image', description: 'Фотореалистичные изображения высокого качества.', icon: 'ImageIcon' },
+  { id: '3', name: 'Kling/Veo/Sora/RunWay и др.', category: 'code', description: 'Эталон в создании качественного ИИ видео и оживлений', icon: 'Code' },
   { id: '4', name: 'Suno AI', category: 'audio', description: 'Создание полноценных песен из текста.', icon: 'Music' },
-  { id: '5', name: 'Luma Dream', category: 'video', description: 'Генерация кинематографичных видео.', icon: 'Video' },
-  { id: '6', name: 'DALL-E 3', category: 'image', description: 'Точное следование сложным промптам.', icon: 'ImageIcon' },
+  { id: '5', name: 'А также синтезатор речи и клонирование голоса', category: 'video', icon: 'Video' },
 ];
 
 export const SHOWCASE: ShowcaseExample[] = [
