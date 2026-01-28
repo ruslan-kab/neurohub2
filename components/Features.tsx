@@ -35,7 +35,7 @@ const Features: React.FC<FeaturesProps> = ({ models }) => {
             Всё, что нужно для <br/><span className="gradient-text">продуктивности</span>
           </h2>
           <p className="text-gray-400 text-base md:text-lg">
-            Больше не нужно платить за 10 разных подписок. NeuralHub объединяет мировых лидеров AI в одном месте.
+            Больше не нужно платить за 10 разных подписок. Syntx объединяет мировых лидеров AI в одном месте.
           </p>
         </div>
 
