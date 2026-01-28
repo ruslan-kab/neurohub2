@@ -39,9 +39,9 @@ export const NAV_LINKS: NavLink[] = [
 export const MODELS: AIModel[] = [
   { id: '1', name: 'GPT/Gemini/Claude и др.', category: 'text', description: 'Самые мощные языковые модели для любых задач.', icon: 'MessageSquare' },
   { id: '2', name: 'Midjourney/Nano Banana/FLUX и др.', category: 'image', description: 'Фотореалистичные изображения высокого качества.', icon: 'ImageIcon' },
-  { id: '3', name: 'Kling/Veo/Sora/RunWay и др.', category: 'code', description: 'Эталон в создании качественного ИИ видео и оживлений', icon: 'Code' },
+  { id: '3', name: 'Kling/Veo/Sora/RunWay и др.', category: 'video', description: 'Эталон в создании качественного ИИ видео и оживлений', icon: 'Video' },
   { id: '4', name: 'Suno AI', category: 'audio', description: 'Создание полноценных песен из текста.', icon: 'Music' },
-  { id: '5', name: 'А также синтезатор речи и клонирование голоса', category: 'video', icon: 'Video' },
+  { id: '5', name: 'А также синтезатор речи и клонирование голоса', category: 'audio', icon: 'Music' },
 ];
 
 export const SHOWCASE: ShowcaseExample[] = [
@@ -52,29 +52,22 @@ export const SHOWCASE: ShowcaseExample[] = [
     // Ссылка на картинку примера
     previewUrl: "https://images.unsplash.com/photo-1614728263952-84ea256f9679?q=80&w=800&auto=format&fit=crop",
     content: "Футуристический город в неоновых огнях под дождем, детализация 8k.",
-    model: "Midjourney v6"
+    model: "Midjourney"
   },
   {
     id: 2,
     title: "Маркетинговая стратегия",
     type: "text",
-    content: "План продвижения нового SaaS продукта для рынка Европы на 2024 год с акцентом на контент-маркетинг.",
-    model: "GPT-4o"
+    content: "Выступай в роли опытного маркетолога. Построй план продвижения нового SaaS продукта для рынка Европы на 2026 года с акцентом на контент-маркетинг.",
+    model: "GPT 5.2"
   },
   {
     id: 3,
-    title: "React Хук для API",
-    type: "code",
-    content: "export const useFetch = <T,>(url: string) => {\n  const [data, setData] = useState<T | null>(null);\n  return { data };\n};",
-    model: "Claude 3.5"
-  },
-  {
-    id: 4,
     title: "Портрет в стиле Ренессанс",
     type: "image",
     previewUrl: "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?q=80&w=800&auto=format&fit=crop",
-    content: "Цифровой портрет женщины в стиле классической масляной живописи 16 века.",
-    model: "DALL-E 3"
+    content: "Цифровой портрет букета цветов в стиле классической масляной живописи 16 века.",
+    model: "Nano Banana"
   }
 ];
 
@@ -82,12 +75,12 @@ export const FEATURES_LIST = [
   {
     title: "Единый интерфейс",
     desc: "Больше не нужно переключаться между 40 вкладками. Все нейросети в одном окне.",
-    icon: <Cpu className="w-6 h-6 text-indigo-500" />
+    icon: <Cpu className="w-5 h-5 text-indigo-500" />
   },
   {
     title: "Молниеносная скорость",
     desc: "Прямой доступ к API обеспечивает минимальную задержку при генерации.",
-    icon: <Zap className="w-6 h-6 text-purple-500" />
+    icon: <Zap className="w-5 h-5 text-purple-500" />
   },
   {
     title: "Безопасность данных",
