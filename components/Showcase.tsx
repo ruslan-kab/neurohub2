@@ -18,7 +18,7 @@ const Showcase: React.FC<ShowcaseProps> = ({ items }) => {
               Вдохновение в <br/><span className="gradient-text">каждом пикселе</span>
             </h2>
             <p className="text-gray-400 text-sm md:text-lg">
-              Посмотрите, на что способны нейросети NeuralHub. От гиперреалистичного арта до сложнейших бизнес-сценариев.
+              Посмотрите, на что способны нейросети. От гиперреалистичного арта до сложнейших бизнес-сценариев.
             </p>
           </div>
           <a href={SERVICE_URL} className="flex items-center gap-2 text-indigo-400 font-bold hover:text-indigo-300 transition-colors group text-sm md:text-base">
