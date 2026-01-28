@@ -14,7 +14,7 @@ import {
 import { AIModel, ShowcaseExample, NavLink } from './types';
 
 export const SITE_CONFIG = {
-  name: "NeuralHub",
+  name: "AiKEMON",
   tagline: "40+ Нейросетей в одном месте",
   description: "Единый доступ к топовым AI моделям: GPT, Gemini, Kling, Veo, Nano Banana, Midjourney, Claude и многим другим.",
   contactEmail: "rpaunezhev@yandex.ru",
