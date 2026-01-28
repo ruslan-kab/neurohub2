@@ -22,7 +22,7 @@ export const SITE_CONFIG = {
   
   // ГЛАВНОЕ ИЗОБРАЖЕНИЕ (Hero Section)
   // Можно заменить на любую ссылку через GitHub
-  heroImage: "https://images.unsplash.com/photo-1620712943543-bcc46386e635?q=80&w=2000&auto=format&fit=crop",
+  heroImage: "https://unsplash.com/photos/abstract-golden-geometric-shapes-on-black-background-with-sparkles-PAtEacme-X8",
   
   // Изображение для фоновых эффектов (опционально)
   accentColor: "#4f46e5"
