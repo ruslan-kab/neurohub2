@@ -16,9 +16,9 @@ import { AIModel, ShowcaseExample, NavLink } from './types';
 export const SITE_CONFIG = {
   name: "NeuralHub",
   tagline: "40+ Нейросетей в одном месте",
-  description: "Единый доступ к топовым AI моделям: GPT-4, Midjourney, Claude и многим другим.",
-  contactEmail: "hello@neuralhub.ai",
-  serviceUrl: "https://example-ai-service.com/start",
+  description: "Единый доступ к топовым AI моделям: GPT, Gemini, Kling, Veo, Nano Banana, Midjourney, Claude и многим другим.",
+  contactEmail: "rpaunezhev@yandex.ru",
+  serviceUrl: "aikemon.ru",
   
   // ГЛАВНОЕ ИЗОБРАЖЕНИЕ (Hero Section)
   // Можно заменить на любую ссылку через GitHub
