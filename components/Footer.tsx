@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
               <span className="text-xl font-bold tracking-tighter uppercase">NeuralHub</span>
             </div>
             <p className="text-gray-500 max-w-sm mb-8">
-              Мы делаем искусственный интеллект доступным для каждого. Один аккаунт — бесконечные возможности для творчества, работы и обучения.
+              С Syntx искусственный интеллект становится доступным для каждого. Один аккаунт — бесконечные возможности для творчества, работы и обучения.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-white/10 transition-colors">
@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-gray-600 text-xs">
-          <p>© 2024 NeuralHub. Все права защищены.</p>
+          <p>© 2026 AiKEMON. Все права защищены.</p>
           <p>Сделано с помощью ИИ для людей.</p>
         </div>
       </div>
